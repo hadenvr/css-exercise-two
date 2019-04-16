@@ -1,6 +1,8 @@
 body {
   background-color: #ffffff;
   color: #000000;
+  font-size: 16px;
+  font-family: sans-serif;
 }
 
 nav {
@@ -8,6 +10,16 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+}
+
+h1 {
+  font-size: 1.5em;
+  padding: 10px 0px;
+}
+
+h3 {
+  font-size: 1.2em;
+  padding: 10px 0px;
 }
 
 .logo {
@@ -20,7 +32,7 @@ nav {
 }
 
 .medium-pic {
-  width: 70%;
+  width: 60%;
 }
 
 .left, .right {
@@ -49,4 +61,41 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color:#ffffff;
+}
+
+a:visited {
+  color:#BDBDBD;
+}
+
+a:hover {
+  color:#4285F4;
+}
+
+.story-text {
+  padding-top: 10px;
+}
+
+p {
+  padding: 10px 0px;
+}
+
+p.author {
+  font-weight: bold;
+}
+
+figcaption {
+  padding: 10px 0px;
+  font-size: 14px;
+}
+
+article {
+  line-height: 1.7em;
 }
